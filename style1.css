@@ -1,5 +1,9 @@
 body{
     overflow: hidden;
+    background-color: cornsilk;
+    height: 100vh;
+    margin: 0;
+    color: #333;    
 }
 
 h1{
@@ -30,48 +34,52 @@ div{
 }
 
 .informacoes{
-    position: relative;
+    position: fixed;
     left: 19rem;
     padding: 0.5rem;
-    bottom: 25rem;
+    bottom: 30rem;
 }
 
 .formacaoAcademica{
     position: relative;
     left: 19rem;
     padding: 0.5rem;
-    bottom: 25rem;
+    bottom: 22rem;
 }
 
 .formacaoTecnica{
-    position: relative;
+    position: fixed;
     left: 19rem;
     padding: 0.5rem;
-    bottom: 25rem;
+    bottom: 15rem;
 }
 
 .experienciaProfissional{
-    position: relative;
+    position: fixed;
     left: 19rem;
     padding: 0.5rem;
-    bottom: 45rem;
+    bottom: 5rem;
 }
 
 .habilidades{
-    position: relative;
+    position: fixed;
     left: 60rem;
     padding: 0.5rem;
-    bottom: 48rem;
+    bottom: 20rem;
 }
 
-.segundoCurriculo{
+.btn{
     position: relative;
     left: 3rem;
-    bottom: 2rem;
-}
-
-.terceiroCurriculo{
-    position: relative;
-    left: 3rem;
+    padding: 1rem;
+    margin: 1rem;
     top: 1rem;
+    background-color: #1e90ff; 
+    color: #fff; 
+    border: none;
+    font-weight: bold; 
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }

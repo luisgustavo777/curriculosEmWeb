@@ -1,5 +1,9 @@
 body{
     overflow: hidden;
+    background-color: blanchedalmond;
+    height: 100vh;
+    margin: 0;
+    color: #333;
 }
 
 h1{
@@ -24,56 +28,60 @@ div{
 }
 
 .meuNome{
-    position: relative;
+    position: fixed;
     left: 3rem;
-    bottom: 23rem;
+    bottom: 35rem;
 }
 
 .informacoes{
-    position: relative;
-    left: 5rem;
+    position: fixed;
+    left: 36rem;
     padding: 0.5rem;
-    bottom: 25rem;
+    bottom: 14rem;
 }
 
 .formacaoAcademica{
-    position: relative;
+    position: fixed;
     left: 58rem;
     padding: 0.5rem;
-    bottom: 43rem;
+    bottom: 31rem;
 }
 
 .formacaoTecnica{
-    position: relative;
+    position: fixed;
     left: 58rem;
     padding: 0.5rem;
-    bottom: 44rem;
+    bottom: 17rem;
 }
 
 .experienciaProfissional{
-    position: relative;
+    position: fixed;
     left: 58rem;
     padding: 0.5rem;
-    bottom: 60rem;
+    bottom: 5rem;
 }
 
 .habilidades{
-    position: relative;
-    left: 40rem;
+    position: fixed;
+    left: 36rem;
     padding: 0.5rem;
-    bottom: 55  rem;
-}
-
-.primeiroCurriculo{
-    position: relative;
-    left: 3rem;
     bottom: 2rem;
 }
 
-.terceiroCurriculo{
+.btn{
     position: relative;
     left: 3rem;
+    padding: 1rem;
+    margin: 1rem;
     top: 1rem;
+    background-color: #1e90ff; 
+    color: #fff; 
+    border: none;
+    font-weight: bold; 
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .fotominha{
