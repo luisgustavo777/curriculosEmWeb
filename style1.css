@@ -1,9 +1,13 @@
+body{
+    overflow: hidden;
+}
+
 h1{
     color: cadetblue;
     font-size: 2rem;
 }
 
-h2 {
+h2{
     color: brown;
     font-size: 1rem;
 }
@@ -29,28 +33,28 @@ div{
     position: relative;
     left: 19rem;
     padding: 0.5rem;
-    bottom: 21rem;
+    bottom: 25rem;
 }
 
 .formacaoAcademica{
     position: relative;
     left: 19rem;
     padding: 0.5rem;
-    bottom: 21rem;
+    bottom: 25rem;
 }
 
 .formacaoTecnica{
     position: relative;
     left: 19rem;
     padding: 0.5rem;
-    bottom: 21rem;
+    bottom: 25rem;
 }
 
 .experienciaProfissional{
     position: relative;
     left: 19rem;
     padding: 0.5rem;
-    bottom: 40rem;
+    bottom: 45rem;
 }
 
 .habilidades{
@@ -58,4 +62,16 @@ div{
     left: 60rem;
     padding: 0.5rem;
     bottom: 48rem;
+}
+
+.segundoCurriculo{
+    position: relative;
+    left: 3rem;
+    bottom: 2rem;
+}
+
+.terceiroCurriculo{
+    position: relative;
+    left: 3rem;
+    top: 1rem;
 }

@@ -1,0 +1,77 @@
+body{
+    overflow: hidden;
+}
+
+h1{
+    color: black;
+    font-size: 2rem;
+}
+
+h2{
+    color: royalblue;
+    font-size: 1.6rem;
+}
+
+div{
+    color: goldenrod;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+*{
+    padding: 0;
+    margin: 25;
+    box-sizing: border-box;
+}
+
+.meuNome{
+    position: relative;
+    left: 25rem;
+    bottom: 30rem;
+}
+
+.informacoes{
+    position: relative;
+    left: 25rem;
+    padding: 0.5rem;
+    bottom: 33rem;
+}
+
+.formacaoAcademica{
+    position: relative;
+    left: 25rem;
+    padding: 0.5rem;
+    bottom: 35rem;
+}
+
+.formacaoTecnica{
+    position: relative;
+    left: 25rem;
+    padding: 0.5rem;
+    bottom: 37rem;
+}
+
+.experienciaProfissional{
+    position: relative;
+    left:25rem;
+    padding: 0.5rem;
+    bottom: 59rem;
+}
+
+.habilidades{
+    position: relative;
+    left: 60rem;
+    padding: 0.5rem;
+    bottom: 48rem;
+}
+
+.segundoCurriculo{
+    position: relative;
+    left: 5rem;
+    bottom: 2rem;
+}
+
+.primeiroCurriculo{
+    position: relative;
+    left: 5rem;
+    top: 3rem;
+}
