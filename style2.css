@@ -29,43 +29,43 @@ div{
 
 .meuNome{
     position: fixed;
-    left: 3rem;
-    bottom: 35rem;
+    left: 18rem;
+    top: 1rem;
 }
 
 .informacoes{
     position: fixed;
-    left: 36rem;
+    left: 1rem;
     padding: 0.5rem;
     bottom: 14rem;
 }
 
 .formacaoAcademica{
     position: fixed;
-    left: 58rem;
+    left: 18rem;
     padding: 0.5rem;
-    bottom: 31rem;
+    bottom: 22rem;
 }
 
 .formacaoTecnica{
     position: fixed;
-    left: 58rem;
+    left: 53rem;
     padding: 0.5rem;
-    bottom: 17rem;
+    bottom: 22rem;
 }
 
 .experienciaProfissional{
     position: fixed;
-    left: 58rem;
+    left: 53rem;
     padding: 0.5rem;
     bottom: 5rem;
 }
 
 .habilidades{
     position: fixed;
-    left: 36rem;
+    left: 30rem;
     padding: 0.5rem;
-    bottom: 2rem;
+    bottom: 5rem;
 }
 
 .btn{
@@ -73,7 +73,7 @@ div{
     left: 3rem;
     padding: 1rem;
     margin: 1rem;
-    top: 1rem;
+    top: 35rem;
     background-color: #1e90ff; 
     color: #fff; 
     border: none;
@@ -85,6 +85,7 @@ div{
 }
 
 .fotominha{
-    position: relative;
-    left: 39rem;
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
 }
